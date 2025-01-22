@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 from textblob import TextBlob
 import re
 import string
-text = "<div>Hellio, Wirld!!! 2025%</div>"
 
 def data_cleaning(text):
     nt=text.lower()
@@ -13,4 +12,3 @@ def data_cleaning(text):
     nt = TextBlob(nt).correct()
     return nt
     
-print(data_cleaning(text))
