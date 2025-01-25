@@ -1,7 +1,7 @@
 #import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
-from metin_on_isleme.data_cleaning import clean_text
+from data_cleaning import clean_text
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from gensim.models import Word2Vec
