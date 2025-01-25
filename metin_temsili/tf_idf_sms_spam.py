@@ -1,7 +1,7 @@
 #import libraries
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-from data_cleaning import clean_text
+from metin_on_isleme.data_cleaning import clean_text
 #veri seti yükle
 df = pd.read_csv("spam.csv", encoding='latin-1')
 cleaned_texts = [clean_text(text) for text in df.v2]

@@ -1,7 +1,7 @@
 #import libraries
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
-from data_cleaning import clean_text
+from metin_on_isleme.data_cleaning import clean_text
 from collections import Counter
 import re
 
